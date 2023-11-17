@@ -21,7 +21,7 @@ toggle.addEventListener("click", () => {
 btn.addEventListener("click", () => {
     const div = document.createElement("div");
     const img = document.createElement("img");
-    img.src = "../img/cat.webp";
+    img.src = "https://qph.cf2.quoracdn.net/main-qimg-b8a04a683b30c668f1dd64e68231b66d-lq";
     div.appendChild(img);
     div.classList.add("cat")
     toggleContainer.appendChild(div);
